@@ -11,17 +11,22 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "build": "node build/build.js",
-    "deploy": "sh build.sh dist \"deploy\""
+    "release": "sh release.sh dist \"deploy\"",
+    "del": "sh dp.sh",
+    "push": "sh pm.sh"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "font-awesome": "^4.7.0",
     "github-api": "^3.0.0",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
+    "markdown": "^0.5.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "simple-line-icons": "^2.4.1",
     "vue": "^2.5.9",
+    "vue-axios": "^2.0.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

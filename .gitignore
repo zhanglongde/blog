@@ -17,3 +17,4 @@ selenium-debug.log
 *.sln
 /webpack-dev-server.cmd
 /webpack-dev-server
+/dist
